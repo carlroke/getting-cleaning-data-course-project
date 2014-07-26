@@ -12,6 +12,7 @@ See the CodeBook.md file for reading specifics.
 ###Files include:
 - **run_analysis.R** : R script used for the class project.  It will produce a "tidy" dataset containing the average of each (mean and standard deviation for each measurement) for each activity and each subject.<br>
 - **CodeBook.md** : A codebook markdown document describing the data variables
+- **tidyData.csv** : A comma delimited dataset created with the run_analysis.R script
 
 
 ###Example of how to read the tidyData.csv file:
