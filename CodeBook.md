@@ -7,77 +7,77 @@ activity - one of the following activities performed with the mobile phone (layi
 
 
 The reading variables contain the following components:
-⋅⋅*Acc - Phone accelerometer readings
-⋅⋅*Gyro - Phone gyroscope readings
-⋅⋅*Body - body motion components
-⋅⋅*Gravity - gravitational motion components
-⋅⋅*Jerk - body linear acceleration and angular velocity derived in time
-⋅⋅*Mag - magnitude of the signals calculated using the Euclidean norm
+- Acc - Phone accelerometer readings
+- Gyro - Phone gyroscope readings
+- Body - body motion components
+- Gravity - gravitational motion components
+- Jerk - body linear acceleration and angular velocity derived in time
+- Mag - magnitude of the signals calculated using the Euclidean norm
 
 #All reading variables
-..*aveTimeBodyAccMeanX 
-..*aveTimeBodyAccMeanY
-..*aveTimeBodyAccMeanZ
-..*aveTimeBodyAccStdDevX
-..*aveTimeBodyAccStdDevY
-..*aveTimeBodyAccStdDevZ
-..*aveTimeGravityAccMeanX
-..*aveTimeGravityAccMeanY
-..*aveTimeGravityAccMeanZ
-..*aveTimeGravityAccStdDevX
-..*aveTimeGravityAccStdDevY
-..*aveTimeGravityAccStdDevZ
-..*aveTimeBodyAccJerkMeanX
-..*aveTimeBodyAccJerkMeanY
-..*aveTimeBodyAccJerkMeanZ
-..*aveTimeBodyAccJerkStdDevX
-..*aveTimeBodyAccJerkStdDevY
-..*aveTimeBodyAccJerkStdDevZ
-..*aveTimeBodyGyroMeanX
-..*aveTimeBodyGyroMeanY
-..*aveTimeBodyGyroMeanZ
-..*aveTimeBodyGyroStdDevX
-..*aveTimeBodyGyroStdDevY
-..*aveTimeBodyGyroStdDevZ
-..*aveTimeBodyGyroJerkMeanX
-..*aveTimeBodyGyroJerkMeanY
-..*aveTimeBodyGyroJerkMeanZ
-..*aveTimeBodyGyroJerkStdDevX
-..*aveTimeBodyGyroJerkStdDevY
-..*aveTimeBodyGyroJerkStdDevZ
-..*aveTimeBodyAccMagMean
-..*aveTimeBodyAccMagStdDev
-..*aveTimeGravityAccMagMean
-..*aveTimeGravityAccMagStdDev
-..*aveTimeBodyAccJerkMagMean
-..*aveTimeBodyAccJerkMagStdDev
-..*aveTimeBodyGyroMagMean
-..*aveTimeBodyGyroMagStdDev
-..*aveTimeBodyGyroJerkMagMean
-..*aveTimeBodyGyroJerkMagStdDev
-..*aveFreqBodyAccMeanX
-..*aveFreqBodyAccMeanY
-..*aveFreqBodyAccMeanZ
-..*aveFreqBodyAccStdDevX
-..*aveFreqBodyAccStdDevY
-..*aveFreqBodyAccStdDevZ
-..*aveFreqBodyAccJerkMeanX
-..*aveFreqBodyAccJerkMeanY
-..*aveFreqBodyAccJerkMeanZ
-..*aveFreqBodyAccJerkStdDevX
-..*aveFreqBodyAccJerkStdDevY
-..*aveFreqBodyAccJerkStdDevZ
-..*aveFreqBodyGyroMeanX
-..*aveFreqBodyGyroMeanY
-..*aveFreqBodyGyroMeanZ
-..*aveFreqBodyGyroStdDevX
-..*aveFreqBodyGyroStdDevY
-..*aveFreqBodyGyroStdDevZ
-..*aveFreqBodyAccMagMean
-..*aveFreqBodyAccMagStdDev
-..*aveFreqBodyAccJerkMagMean
-..*aveFreqBodyAccJerkMagStdDev
-..*aveFreqBodyGyroMagMean
-..*aveFreqBodyGyroMagStdDev
-..*aveFreqBodyGyroJerkMagMean
-..*aveFreqBodyGyroJerkMagStdDev
+- aveTimeBodyAccMeanX 
+- aveTimeBodyAccMeanY
+- aveTimeBodyAccMeanZ
+- aveTimeBodyAccStdDevX
+- aveTimeBodyAccStdDevY
+- aveTimeBodyAccStdDevZ
+- aveTimeGravityAccMeanX
+- aveTimeGravityAccMeanY
+- aveTimeGravityAccMeanZ
+- aveTimeGravityAccStdDevX
+- aveTimeGravityAccStdDevY
+- aveTimeGravityAccStdDevZ
+- aveTimeBodyAccJerkMeanX
+- aveTimeBodyAccJerkMeanY
+- aveTimeBodyAccJerkMeanZ
+- aveTimeBodyAccJerkStdDevX
+- aveTimeBodyAccJerkStdDevY
+- aveTimeBodyAccJerkStdDevZ
+- aveTimeBodyGyroMeanX
+- aveTimeBodyGyroMeanY
+- aveTimeBodyGyroMeanZ
+- aveTimeBodyGyroStdDevX
+- aveTimeBodyGyroStdDevY
+- aveTimeBodyGyroStdDevZ
+- aveTimeBodyGyroJerkMeanX
+- aveTimeBodyGyroJerkMeanY
+- aveTimeBodyGyroJerkMeanZ
+- aveTimeBodyGyroJerkStdDevX
+- aveTimeBodyGyroJerkStdDevY
+- aveTimeBodyGyroJerkStdDevZ
+- aveTimeBodyAccMagMean
+- aveTimeBodyAccMagStdDev
+- aveTimeGravityAccMagMean
+- aveTimeGravityAccMagStdDev
+- aveTimeBodyAccJerkMagMean
+- aveTimeBodyAccJerkMagStdDev
+- aveTimeBodyGyroMagMean
+- aveTimeBodyGyroMagStdDev
+- aveTimeBodyGyroJerkMagMean
+- aveTimeBodyGyroJerkMagStdDev
+- aveFreqBodyAccMeanX
+- aveFreqBodyAccMeanY
+- aveFreqBodyAccMeanZ
+- aveFreqBodyAccStdDevX
+- aveFreqBodyAccStdDevY
+- aveFreqBodyAccStdDevZ
+- aveFreqBodyAccJerkMeanX
+- aveFreqBodyAccJerkMeanY
+- aveFreqBodyAccJerkMeanZ
+- aveFreqBodyAccJerkStdDevX
+- aveFreqBodyAccJerkStdDevY
+- aveFreqBodyAccJerkStdDevZ
+- aveFreqBodyGyroMeanX
+- aveFreqBodyGyroMeanY
+- aveFreqBodyGyroMeanZ
+- aveFreqBodyGyroStdDevX
+- aveFreqBodyGyroStdDevY
+- aveFreqBodyGyroStdDevZ
+- aveFreqBodyAccMagMean
+- aveFreqBodyAccMagStdDev
+- aveFreqBodyAccJerkMagMean
+- aveFreqBodyAccJerkMagStdDev
+- aveFreqBodyGyroMagMean
+- aveFreqBodyGyroMagStdDev
+- aveFreqBodyGyroJerkMagMean
+- aveFreqBodyGyroJerkMagStdDev
