@@ -15,7 +15,7 @@ The fields in this dataset consist of a number of means (averages) of mobile pho
 - **Jerk** - body linear acceleration and angular velocity derived in time
 - **Mag** - magnitude of the signals calculated using the Euclidean norm
 
-###All reading variables
+###All numeric reading variables
 - aveTimeBodyAccMeanX 
 - aveTimeBodyAccMeanY
 - aveTimeBodyAccMeanZ
