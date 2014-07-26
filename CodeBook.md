@@ -3,16 +3,17 @@
 The fields in this dataset consist of a number of means (averages) of mobile phone readings, grouped by the subject wearing the phone and the activity they are performing.
 
 **subjects** - a number representing a group of 30 volunteers within an age bracket of 19-48 years.
+
 **activity** - one of the following activities performed with the mobile phone (laying, sitting, standing, walking, walkingDownstairs, walkingUpstairs)
 
 
 ###The reading variables contain the following components:
-- Acc - Phone accelerometer readings
-- Gyro - Phone gyroscope readings
-- Body - body motion components
-- Gravity - gravitational motion components
-- Jerk - body linear acceleration and angular velocity derived in time
-- Mag - magnitude of the signals calculated using the Euclidean norm
+- **Acc** - Phone accelerometer readings
+- **Gyro** - Phone gyroscope readings
+- **Body** - body motion components
+- **Gravity** - gravitational motion components
+- **Jerk** - body linear acceleration and angular velocity derived in time
+- **Mag** - magnitude of the signals calculated using the Euclidean norm
 
 ###All reading variables
 - aveTimeBodyAccMeanX 
