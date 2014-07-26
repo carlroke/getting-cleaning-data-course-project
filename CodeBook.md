@@ -8,8 +8,8 @@ The fields in this dataset consist of a number of means (averages) of mobile pho
 
 
 ###The reading variables contain the following components:
-- **Acc** - Phone accelerometer readings
-- **Gyro** - Phone gyroscope readings
+- **Acc** - Phone accelerometer readings **in standard gravity units**
+- **Gyro** - Phone gyroscope readings **in radians/second**
 - **Body** - body motion components
 - **Gravity** - gravitational motion components
 - **Jerk** - body linear acceleration and angular velocity derived in time

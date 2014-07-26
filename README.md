@@ -21,12 +21,12 @@ names(dataset)<br>
 str(dataset)<br>
 head(dataset)<br>
 
-###Steps the script performreadme.md
+###Steps the script perform:
 1. Read the training and the test files into separate dataframes
 2. Add the appropriate subject code file to the appropriate dataframe
 3. Add the appropriate activity code file to the appropriate dataframe
 4. Merge the test and train dataframes into a single dataframe
-5. Extract only the mean values for each measurement.  Since the question asked for means and std of "each measurement", I chose not to include non-native measurement aggregates.
+5. Extract only the mean and standard deviation values for each measurement.  Since the question asked for means and std of "each measurement", I chose not to include non-native measurement aggregates.
 6. Add descriptive column names to the data.  This consisted of:<br>
   -removing brachets and dashes <br>
   -replace the f with freq (frequency) and the t with time to make the columns more descriptive<br>
