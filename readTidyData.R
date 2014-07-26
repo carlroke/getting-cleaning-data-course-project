@@ -1,5 +1,0 @@
-source('./run_analysis.R', echo=FALSE)
-dataset<-read.csv("./tidyData.csv")
-names(dataset)
-head(dataset)
-str(dataset)
