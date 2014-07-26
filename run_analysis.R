@@ -98,5 +98,6 @@ melted<-melt(combined,id=c("subjects","activity"))
 
 #group by subject,activity
 tidy<-dcast(melted,subjects+ activity ~ variable,mean)
+
 write.csv(tidy, file="./tidyData.csv",row.names=FALSE)
 
