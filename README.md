@@ -1,4 +1,4 @@
-#Coursera Course Project for "Getting and Cleaning Data"
+###Coursera Course Project for "Getting and Cleaning Data"
 
 This dataset includes a subset of the following original data set:
 Human Activity Recognition Using Smartphones Data Set
@@ -9,19 +9,19 @@ More information about the original dataset can be found at:
 This dataset representst a number of average mobile phone readings, grouped by the subject wearing the phone and the activity they are performing.
 See the CodeBook.md file for reading specifics.
 
-#Files include:
-⋅⋅*run_analysis.R : R script used for the class project.  It will produce a "tidy" dataset containing the average of each (mean and standard deviation for each measurement) for each activity and each subject.
-⋅⋅*CodeBook.md : A codebook markdown document describing the data variables
+###Files include:
+- **run_analysis.R** : R script used for the class project.  It will produce a "tidy" dataset containing the average of each (mean and standard deviation for each measurement) for each activity and each subject.<br>
+- **CodeBook.md** : A codebook markdown document describing the data variables
 
 
-#Example of how to read the tidyData.csv file:
-⋅⋅*source('./run_analysis.R', echo=FALSE)
-⋅⋅*dataset<-read.csv("./tidyData.csv")
-⋅⋅*names(dataset)
-⋅⋅*str(dataset)
-⋅⋅*head(dataset)
+###Example of how to read the tidyData.csv file:
+source('./run_analysis.R', echo=FALSE)<br>
+dataset<-read.csv("./tidyData.csv")<br>
+names(dataset)<br>
+str(dataset)<br>
+head(dataset)<br>
 
-#Steps the script performreadme.md
+###Steps the script performreadme.md
 1. Read the training and the test files into separate dataframes
 2. Add the appropriate subject code file to the appropriate dataframe
 3. Add the appropriate activity code file to the appropriate dataframe
