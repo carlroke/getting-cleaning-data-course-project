@@ -34,4 +34,4 @@ head(dataset)<br>
   -added the "ave" prefix, since the final dataset will include averages for each measurement value<br>
 7. Sort by data by subject / activities
 8. Group the data by subject / activities
-9. Write the new dataset to TidyData.csv (including headers)
+9. Write the new dataset to tidyData.csv (including headers)
