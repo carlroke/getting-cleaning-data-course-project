@@ -27,11 +27,11 @@ head(dataset)<br>
 3. Add the appropriate activity code file to the appropriate dataframe
 4. Merge the test and train dataframes into a single dataframe
 5. Extract only the mean values for each measurement.  Since the question asked for means and std of "each measurement", I chose not to include non-native measurement aggregates.
-6. Add descriptive column names to the data.  This consisted of:
-  *removing brachets () and dashes -
-  *replace the f with freq (frequency) and the t with time to make the columns more descriptive
-  *made the columns camelcase for readibility (due to the length of the names)
-  *added the "ave" prefix, since the final dataset will include averages for each measurement value
+6. Add descriptive column names to the data.  This consisted of:<br>
+  -removing brachets and dashes <br>
+  -replace the f with freq (frequency) and the t with time to make the columns more descriptive<br>
+  -made the columns camelcase for readibility (due to the length of the names)<br>
+  -added the "ave" prefix, since the final dataset will include averages for each measurement value<br>
 7. Sort by data by subject / activities
 8. Group the data by subject / activities
 9. Write the new dataset to TidyData.csv (including headers)
